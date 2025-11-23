@@ -1,4 +1,4 @@
-# RAINFALL-DATA-ANALYSER-FOR-FARMING-
+# RAINFALL-DATA-ANALYSER 
 A Python project to analyse data and visualise trends.
 
 import pandas as pd 
