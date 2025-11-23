@@ -1,17 +1,2 @@
 # RAINFALL-DATA-ANALYSER 
-A Python project to analyse data and visualise trends.
-
-import pandas as pd 
-import matplotlib.pyplot as plt
-
-def analyse_rainfall(file_path)
-df= pd.read_csv(file_path)
-print("Summary Statistics:\n", df.describe())
-
-plt.figure(figsize=(10,5))
-plt.plot(df['Date'], df['Rainfall'], marker='0')
-plt.title("Rainfall Trend")
-plt.xlabel("Date")
-plt.ylabel("Rainfall (mm)")
-plt.grid(True)
-plt.show()
+This Python tool digs into rainfall data and turns it into real advice for farmers. It looks at how much it’s rained, finds dry spells, crunches the numbers, and checks if certain crops actually make sense for the current conditions. It even suggests when to irrigate. With this, farmers get a clear picture of what’s happening with their land—so they can plan crops and manage water with way more confidence, using both past and present rainfall trends.
